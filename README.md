@@ -67,4 +67,4 @@ MIT License
 ## 🔗 Links
 
 - [PowerShell Gallery](https://www.powershellgallery.com/packages/PwshUtils.CheatSheets)
-- [GitHub Repository](https://github.com/GVNADIR/pwshutils-cheatsheets)
+- [GitHub Repository](https://github.com/vlgndr/pwshutils-cheatsheets)

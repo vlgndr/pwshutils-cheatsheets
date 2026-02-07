@@ -24,7 +24,7 @@ Get-WinLinuxMap ping
 Filters the list to show only commands that include the word 'ping' in either the Windows or Linux command fields.
 
 .NOTES
-Author: GVNADIR
+Author: vlgndr
 Module: PwshUtils.CheatSheets
 #>
 Function Get-WinLinuxMap {
@@ -33,7 +33,7 @@ Function Get-WinLinuxMap {
 		[string]$Filter
 	)
 
-	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/gvnadir/c9bcbc3350158726aaa67b1ae2103c91/raw/PowerShellLinuxMap.csv'
+	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/vlgndr/c9bcbc3350158726aaa67b1ae2103c91/raw/PowerShellLinuxMap.csv'
 
 	if ($Filter) {
 		$data = $data | Where-Object {
@@ -68,7 +68,7 @@ Get-VimCheatSheet gg
 Displays only the Vim commands that contain 'gg'.
 
 .NOTES
-Author: GVNADIR
+Author: vlgndr
 Module: PwshUtils.CheatSheets
 #>
 Function Get-VimCheatSheet {
@@ -77,14 +77,13 @@ Function Get-VimCheatSheet {
 		[string]$Filter
 	)
 
-	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/gvnadir/8d240f6a885b301a7cbbfdcb563d4600/raw/VimCheatSheet.csv'
+	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/vlgndr/8d240f6a885b301a7cbbfdcb563d4600/raw/VimCheatSheet.csv'
 	if ($Filter) {
 		$data = $data | Where-Object {
 			$_.Command -ilike "*$Filter*" -or
 			$_.Description -ilike "*$Filter*"
 		}
 	}
-	
 	$data
 }
 
@@ -111,7 +110,7 @@ Get-WindowsCommands task
 Filters the list to show commands containing 'task' in either the name or the command itself.
 
 .NOTES
-Author: GVNADIR
+Author: vlgndr
 Module: PwshUtils.CheatSheets
 #>
 Function Get-WindowsCommands {
@@ -120,7 +119,7 @@ Function Get-WindowsCommands {
 		[string]$Filter
 	)
 
-	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/gvnadir/46f0ccd9b7d58d17d51e73e972e75caa/raw/WindowsRun.csv'
+	$data = Get-GistFile -Url 'https://gist.githubusercontent.com/vlgndr/46f0ccd9b7d58d17d51e73e972e75caa/raw/WindowsRun.csv'
 
 	if ($Filter) {
 		$data = $data | Where-Object {
