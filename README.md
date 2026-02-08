@@ -24,8 +24,6 @@ Get-VimCommand
 Get-VimCommand syntax
 ```
 
----
-
 ### `Get-WindowsCommand [<Filter>]`
 Displays common Windows system commands and shortcuts.  
 
@@ -33,8 +31,6 @@ Displays common Windows system commands and shortcuts.
 Get-WindowsCommand
 Get-WindowsCommand task
 ```
-
----
 
 ### `Get-WinLinuxMap [<Filter>]`
 Provides a mapping of equivalent commands between Windows and Linux.  

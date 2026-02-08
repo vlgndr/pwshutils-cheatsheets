@@ -12,7 +12,7 @@
   RootModule        = 'PwshUtils.CheatSheets.psm1'
 
   # Version number of this module.
-  ModuleVersion     = '1.2.0'
+  ModuleVersion     = '1.4.0'
 
   # Supported PSEditions
   # CompatiblePSEditions = @()
@@ -74,7 +74,8 @@
     'Get-WindowsCommand',
     'Get-WinLinuxMap',
     'Get-DockerCommand',
-    'Get-RegexExample'
+    'Get-RegexExample',
+    'Get-GitCommand'
   )
 
   # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
@@ -114,8 +115,8 @@
 
       # ReleaseNotes of this module
       ReleaseNotes = @'
-      ### 1.3.0
-      - Add Get-RegexExample
+      ### 1.4.0
+      - Add Get-GistCommand
 '@
 
       # Prerelease string of this module
