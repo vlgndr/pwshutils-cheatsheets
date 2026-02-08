@@ -38,7 +38,9 @@ Function Get-WinLinuxMap {
 	if ($Filter) {
 		$data = $data | Where-Object {
 			$_.Windows -ilike "*$Filter*" -or
-			$_.Linux -ilike "*$Filter*"
+			$_.Linux -ilike "*$Filter*" -or
+			$_.Operation -ilike "*$Filter*" -or
+			$_.Description -ilike "*$Filter*" 
 		}
 	}
 
@@ -124,7 +126,8 @@ Function Get-WindowsCommands {
 	if ($Filter) {
 		$data = $data | Where-Object {
 			$_.Name -ilike "*$Filter*" -or
-			$_.Command -ilike "*$Filter*" 
+			$_.Command -ilike "*$Filter*" -or
+			$_.Description -ilike "*$Filter*" 
 		}
 	}
 	

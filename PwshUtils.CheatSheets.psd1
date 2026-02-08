@@ -112,9 +112,9 @@
 
       # ReleaseNotes of this module
       ReleaseNotes = @'
-      ### 1.0.2
-      - Removed cache feature
-      - You can now manually delete your old cached files by removing the entire PwshUtils directory stored in: $env:LOCALAPPDATA
+      ### 1.1.0
+      - Expand filters to more columns for a better experience
+      - Add verbose output
 '@
 
       # Prerelease string of this module
