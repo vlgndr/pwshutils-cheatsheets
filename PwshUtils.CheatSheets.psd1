@@ -12,7 +12,7 @@
   RootModule        = 'PwshUtils.CheatSheets.psm1'
 
   # Version number of this module.
-  ModuleVersion     = '1.1.0'
+  ModuleVersion     = '1.2.0'
 
   # Supported PSEditions
   # CompatiblePSEditions = @()
@@ -71,8 +71,9 @@
   # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
   FunctionsToExport = @(
     'Get-VimCheatSheet',
-    'Get-WindowsCommands',
-    'Get-WinLinuxMap'
+    'Get-WindowsCommand',
+    'Get-WinLinuxMap',
+    'Get-DockerCommand'
   )
 
   # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
@@ -112,9 +113,8 @@
 
       # ReleaseNotes of this module
       ReleaseNotes = @'
-      ### 1.1.0
-      - Expand filters to more columns for a better experience
-      - Add verbose output
+      ### 1.2.0
+      - Add Get-DockerCommand function
 '@
 
       # Prerelease string of this module
