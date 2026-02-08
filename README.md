@@ -18,7 +18,6 @@ Import-Module .\pwshutils-cheatsheets\PwshUtils.CheatSheets.psd1
 
 ### `Get-VimCheatSheet [<Filter>]`
 Displays a categorized Vim cheat sheet.  
-You can pass an optional filter to search within the `Command` and `Description` column.
 
 ```powershell
 Get-VimCheatSheet
@@ -27,24 +26,30 @@ Get-VimCheatSheet syntax
 
 ---
 
-### `Get-WindowsCommands [<Filter>]`
+### `Get-WindowsCommand [<Filter>]`
 Displays common Windows system commands and shortcuts.  
-The optional filter is matched against the `Name` and `Command` columns.
 
 ```powershell
-Get-WindowsCommands
-Get-WindowsCommands task
+Get-WindowsCommand
+Get-WindowsCommand task
 ```
 
 ---
 
 ### `Get-WinLinuxMap [<Filter>]`
 Provides a mapping of equivalent commands between Windows and Linux.  
-Filter text is matched against both the `Windows` and `Linux` command columns.
 
 ```powershell
 Get-WinLinuxMap
 Get-WinLinuxMap ping
+```
+
+### `Get-DockerCommand [<Filter>]`
+Displays basic Docker commands. 
+
+```powershell
+Get-DockerCommand
+Get-DockerCommand images
 ```
 
 ---

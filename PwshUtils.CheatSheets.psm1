@@ -102,12 +102,12 @@ A text string to filter the output. The filter is applied case-insensitively
 to both the 'Name', 'Command' and 'Description' columns.
 
 .EXAMPLE
-Get-WindowsCommands
+Get-WindowsCommand
 
 Displays the full list of known Windows commands.
 
 .EXAMPLE
-Get-WindowsCommands task
+Get-WindowsCommand task
 
 Filters the list to show commands containing 'task' in either the name or the command itself.
 
