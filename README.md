@@ -1,6 +1,6 @@
 # PwshUtils.CheatSheets
 
-**PwshUtils.CheatSheets** is a PowerShell module that offers lightweight, searchable cheat sheets for tools like Vim, common Windows system commands, and equivalent commands between Windows and Linux. Ideal for quick reference and cross-platform users.
+**PwshUtils.CheatSheets** is a PowerShell module that offers lightweight, searchable cheat sheets for tools like Vim, common Windows system commands, equivalent commands between Windows and Linux and more. Ideal for quick reference and cross-platform users.
 
 ---
 
