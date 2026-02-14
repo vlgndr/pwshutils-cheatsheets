@@ -1,6 +1,6 @@
-# PSCheatSheets
+# CheatSheets
 
-**PSCheatSheets** is a PowerShell module that offers lightweight, searchable cheat sheets for tools like Vim, common Windows system commands, equivalent commands between Windows and Linux and more. Ideal for quick reference and cross-platform users.
+**CheatSheets** is a PowerShell module that offers lightweight, searchable cheat sheets for tools like Vim, common Windows system commands, equivalent commands between Windows and Linux and more. Ideal for quick reference and cross-platform users.
 
 ---
 
@@ -8,8 +8,8 @@
 
 
 ```powershell
-git clone https://github.com/vlgndr/pscheatsheets.git
-Import-Module .\pscheatsheets\PSCheatSheets.psd1
+git clone https://github.com/vlgndr/cheatsheets.git
+Import-Module .\cheatsheets\CheatSheets.psd1
 ```
 
 ---
