@@ -8,7 +8,7 @@
 
 
 ```powershell
-git clone https://github.com/vlgndr/cheatsheets.git
+git clone https://github.com/gianlucanadir/cheatsheets.git
 Import-Module .\cheatsheets\CheatSheets.psd1
 ```
 
